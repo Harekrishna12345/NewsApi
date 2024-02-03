@@ -45,7 +45,7 @@ function News(props) {
     <div className='testy'>
       {isLoading ? (
         <Loader
-        type="skeleton-circle" bgColor={'black'} color={'black'} title={"𝙡𝙤𝙖𝙙𝙞𝙣𝙜..."} size={77}
+        type="skeleton-circle" bgColor={'white'} color={'white'} title={"𝙡𝙤𝙖𝙙𝙞𝙣𝙜..."} size={100}
         />
       ) : (
         <>

@@ -3,7 +3,6 @@ import Loader from "react-js-loader";
 import "./News.css";
 
 const NewsDesign = (props) => {
-    console.log(props.apiData, '...apiData');
     return (
         <div className='row'>
 
@@ -26,7 +25,7 @@ const NewsDesign = (props) => {
                     );
                 })
                 :
-                <Loader type="skeleton-circle" bgColor={'white'} color={'white'} title={"𝙡𝙤𝙖𝙙𝙞𝙣𝙜..."} size={77} />
+                <Loader type="skeleton-circle" bgColor={'white'} color={'white'} title={"𝙡𝙤𝙖𝙙𝙞𝙣𝙜..."} size={100} />
             }
 
         </div>
